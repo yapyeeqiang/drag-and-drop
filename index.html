@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"
+      integrity="sha512-zYXldzJsDrNKV+odAwFYiDXV2Cy37cwizT+NkuiPGsa9X1dOz04eHvUWVuxaJ299GvcJT31ug2zO4itXBjFx4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <h1>All Tasks</h1>
+        <div class="list-group-item" draggable="true">Wash Clothes</div>
+        <div class="list-group-item" draggable="true">Meeting at 9AM</div>
+        <div class="list-group-item" draggable="true">Fix workshop</div>
+        <div class="list-group-item" draggable="true">Visit the zoo</div>
+      </div>
+      <div class="column">
+        <h1>In progress</h1>
+      </div>
+      <div class="column">
+        <h1>Paused</h1>
+      </div>
+      <div class="column">
+        <h1>Under Review</h1>
+      </div>
+      <div class="column">
+        <h1>Completed</h1>
+      </div>
+    </div>
+  </body>
+</html>
